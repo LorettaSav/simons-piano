@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Satisfy&display=swap'); </style>
+
+<body class="body">
+    <h1 class="game-title">Musical Ear Simon</h1>
+    <div class="intro">
+        <div class="instructions">
+            
+            <h4> Press PLAY to start for a random tune musical Simon or Play Tune for a specific tune Simon.</h4>
+            <p> Hint: You can play the notes before starting the game.</p>
+            <ol>
+                <li> Click Play, recognise and replicate note</li>
+                <li> Repeat </li>
+                <li> Don't forget that in every turn you have to replicate ALL notes played so far.</li>
+                <li class="after-note"> <em> You can press the Repeat button if you want to listen to the note again!</em></li>
+            </ol>
+        </div>
+        <div class="btn-area">
+            <button class="btn play" type="submit" aria-valuetext="Play"><i class="lni lni-play"></i> Play </button>
+            <button class="btn play-tune" type="submit" aria-valuetext="Play specific turn">Tune Game</button>
+            <button class="btn repeat"> Repeat Note</i> </button>
+            <!-- <button class="btn help"> <i class="lni lni-question-circle"></i> </button> -->
+        </div>
+    </div>
+
+
+    <ul class="key-area">
+        <li class="key white do1"></li>
+        <li class="key black ds"></li>
+        <li class="key white re"></li>
+        <li class="key black cs"></li>
+        <li class="key white mi"></li>
+        <li class="key white fa"></li>
+        <li class="key black as"></li>
+        <li class="key white sol"></li>
+        <li class="key black gs"></li>
+        <li class="key white la"></li>
+        <li class="key black fs"></li>
+        <li class="key white si"></li>
+        <li class="key white do2"></li>
+
+        
+      </ul>
+    <!-- <div class="key-area">
+        <button class="key do1"> C4 </button>
+        <button class="black-key C-sharp"></button>
+        <button class="key re"> D4 </button>
+        <button class="black-key D-sharp"></button>
+        <button class="key mi"> E4 </button>
+        <button class="key fa"> F4 </button>
+        <button class="black-key F-sharp"></button>
+        <button class="key sol"> G4 </button>
+        <button class="black-key G-sharp"></button>
+        <button class="key la"> A4 </button>
+        <button class="black-key A-sharp"></button>
+        <button class="key si"> B4 </button>
+        <button class="key do2"> C5 </button>
+    </div> -->
+<script src="game.js"></script>  
+</body>
+</html>
